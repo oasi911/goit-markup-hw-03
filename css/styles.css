@@ -23,6 +23,10 @@ body {
   align-items: center;
 }
 
+.main-header {
+  outline: #ececec solid 1px;
+}
+
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -151,12 +155,12 @@ body {
 
 .main-advantages {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
-.main-advantages .item {
-  width: 270px;
+.main-advantages .item + .item {
+  margin-left: 30px;
 }
 
 .advantages h3 {
@@ -189,7 +193,7 @@ body {
 .main-boxes {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 94px;
 }
 
@@ -208,6 +212,17 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-top: 94px;
+}
+
+.main-team {
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+
+.main-team .item + .item {
+  margin-left: 30px;
 }
 
 .team li {
@@ -224,6 +239,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 30px;
 }
 
 .team p {
@@ -232,6 +248,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .footer {
@@ -246,11 +264,22 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
+  display: block;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-logo::after {
   content: 'Studio';
   color: #2196f3;
+}
+
+.footer .item + .item {
+  margin-top: 9px;
+}
+
+.footer-contacts {
+  padding-bottom: 60px;
 }
 
 .footer li .coordinates {
