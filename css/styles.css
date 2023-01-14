@@ -299,16 +299,34 @@ body {
   font-style: normal;
 }
 
+.examples-buttons {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .examples-buttons button {
   background: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
+  min-width: 73px;
+  height: 38px;
+  padding: 6px 22px;
+  border: none;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.main-buttons .item + .item {
+  margin-left: 8px;
 }
 
 .examples-buttons button:hover,
@@ -318,6 +336,21 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.main-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.main-examples .item {
+  outline: #eeeeee solid 1px;
+}
+
+.item .item-text {
+  margin: 24px 20px;
 }
 
 .examples h3 {
