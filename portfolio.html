@@ -12,26 +12,32 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body class="container">
-    <header>
-      <a class="logo" href="https://oasi911.github.io/goit-markup-hw-02/"
-        >Web</a
-      >
-      <ul class="navigation">
-        <li><a href="index.html">Студія</a></li>
-        <li><a href="portfolio.html">Портфоліо</a></li>
-        <li><a href="#contacts">Контакти</a></li>
-      </ul>
-      <address class="address">
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+  <body>
+    <header class="main-header">
+      <nav class="container page-header">
+        <a class="logo" href="https://oasi911.github.io/goit-markup-hw-02/"
+          >Web</a
+        >
+        <ul class="navigation">
+          <li class="item"><a href="index.html">Студія</a></li>
+          <li class="item"><a href="portfolio.html">Портфоліо</a></li>
+          <li class="item"><a href="#contacts">Контакти</a></li>
         </ul>
-      </address>
+        <address class="address">
+          <ul class="addresses">
+            <li class="item">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </nav>
     </header>
 
     <main>
-      <div class="examples-buttons">
+      <div class="container examples-buttons">
         <ul>
           <li><button type="button">Усі</button></li>
           <li><button type="button">Веб-сайти</button></li>
@@ -40,7 +46,7 @@
           <li><button type="button">Маркетинг</button></li>
         </ul>
       </div>
-      <section class="examples">
+      <section class="container examples">
         <ul>
           <li>
             <img
@@ -128,23 +134,27 @@
     </main>
 
     <footer class="footer">
-      <a class="footer-logo" href="https://oasi911.github.io/goit-markup-hw-02/"
-        >Web</a
-      >
-      <address>
-        <ul>
-          <li>
-            <a
-              href="https://goo.gl/maps/8TYebSpP7c4H44jo8"
-              target="_blank"
-              rel="«noopener noreferrer"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a
+          class="footer-logo"
+          href="https://oasi911.github.io/goit-markup-hw-02/"
+          >Web</a
+        >
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/8TYebSpP7c4H44jo8"
+                target="_blank"
+                rel="«noopener noreferrer"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
