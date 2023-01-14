@@ -1,11 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #000000;
 }
 
-header {
+.page-header {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .logo {
@@ -39,8 +45,8 @@ header {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: block;
 }
 
@@ -53,14 +59,15 @@ header {
   color: #2196f3;
 }
 
-header address {
+.pageheader .address {
   margin-left: auto;
 }
-header address ul {
+
+.page-header .addresses {
   display: flex;
 }
 
-header address ul li + li {
+.page-header .addresses .item + .item {
   margin-left: 50px;
 }
 
