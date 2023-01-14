@@ -21,7 +21,6 @@ body {
 .page-header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .logo {
@@ -69,7 +68,7 @@ body {
   color: #2196f3;
 }
 
-.pageheader .address {
+.page-header .address {
   margin-left: auto;
 }
 
