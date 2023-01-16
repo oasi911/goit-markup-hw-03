@@ -23,6 +23,8 @@ body {
   --secondary-text-color: #757575;
   --secondary-main-text-color: #ffffff;
   --text-main-color: #000000;
+  --header-outline: #ececec;
+  --examples-outline: #eeeeee;
   --shadow-main-color: rgba(0, 0, 0, 0.15);
   --shadow-secondary-color: rgba(0, 0, 0, 0.25);
   --team-shadow-main-color: rgba(0, 0, 0, 0.12);
@@ -50,7 +52,7 @@ body {
 }
 
 .main-header {
-  outline: #ececec solid 1px;
+  outline: var(--header-outline) solid 1px;
 }
 
 .logo {
@@ -373,7 +375,7 @@ body {
 }
 
 .main-examples .item {
-  outline: #eeeeee solid 1px;
+  outline: var(--examples-outline) solid 1px;
 }
 
 .item .item-text {
