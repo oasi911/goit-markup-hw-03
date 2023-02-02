@@ -391,6 +391,12 @@ img {
   gap: 30px;
 }
 
+.examples .header-name {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
 .main-examples .item-text {
   border-bottom: 1px solid var(--examples-outline);
   border-left: 1px solid var(--examples-outline);
