@@ -72,6 +72,8 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--hover-button-color);
+  padding-top: 24.5px;
+  padding-bottom: 24.5px;
 }
 
 .logo .second-part {
@@ -107,6 +109,11 @@ p {
 .footer li a:hover,
 .footer li a:focus {
   color: var(--hover-button-color);
+}
+
+.addresses .item {
+  padding-top: 31.5px;
+  padding-bottom: 31.5px;
 }
 
 .page-header .address {
@@ -369,7 +376,7 @@ img {
 }
 
 .main-buttons .button:hover,
-.maim-buttons .button:focus {
+.main-buttons .button:focus {
   color: var(--secondary-main-text-color);
   background: var(--hover-button-color);
   box-shadow: 0px 3px 1px var(--buttons-shadow-main-color),
