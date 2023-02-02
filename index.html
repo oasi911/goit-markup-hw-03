@@ -10,16 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="main-header">
       <nav class="container page-header">
-        <a class="logo" href="https://oasi911.github.io/goit-markup-hw-02/"
+        <a class="logo" href="https://oasi911.github.io/goit-markup-hw-03/"
           >Web<span class="second-part">Studio</span></a
         >
-        <ul class="navigation">
-          <li class="item"><a class="nav-item" href="index.html">Студія</a></li>
+        <ul class="navigation list">
+          <li class="item">
+            <a class="nav-item current" href="index.html">Студія</a>
+          </li>
           <li class="item">
             <a class="nav-item" href="portfolio.html">Портфоліо</a>
           </li>
@@ -28,7 +34,7 @@
           </li>
         </ul>
         <address class="address">
-          <ul class="addresses">
+          <ul class="addresses list">
             <li class="item">
               <a class="address-item" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -48,98 +54,111 @@
       <section class="banner">
         <div class="container">
           <h1 class="text">ЕФЕКТІВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <div class="button">
-            <button class="button-item" type="button">Замовити послугу</button>
-          </div>
+          <button class="button-item" type="button">Замовити послугу</button>
         </div>
       </section>
 
-      <section class="container advantages">
-        <h2 class="slogan">Наші переваги</h2>
-        <ul class="main-advantages">
-          <li class="item">
-            <h3 class="slogan-item">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="slogan-item">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="slogan-item">ПЛАНУВАННЯ</h3>
-            <p class="text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="slogan-item">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="advantages section">
+        <div class="container">
+          <h2 class="slogan">Наші переваги</h2>
+          <ul class="main-advantages list">
+            <li class="item">
+              <h3 class="slogan-item">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="slogan-item">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="slogan-item">ПЛАНУВАННЯ</h3>
+              <p class="text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="slogan-item">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="container boxes">
-        <h2 class="slogan">Чим ми займаємося</h2>
-        <ul class="main-boxes">
-          <li class="item">
-            <img
-              src="images/box1.jpg"
-              alt="what we are doing picture one"
-              width="370"
-            />
-          </li>
-          <li class="item">
-            <img
-              src="images/box2.jpg"
-              alt="what we are doing picture two"
-              width="370"
-            />
-          </li>
-          <li class="item">
-            <img
-              src="images/box3.jpg"
-              alt="what we are doing picture three"
-              width="370"
-            />
-          </li>
-        </ul>
+      <section class="boxes section">
+        <div class="container">
+          <h2 class="slogan">Чим ми займаємося</h2>
+          <ul class="main-boxes list">
+            <li class="item">
+              <img
+                class="image"
+                src="images/box1.jpg"
+                alt="what we are doing picture one"
+                width="370"
+              />
+            </li>
+            <li class="item">
+              <img
+                class="image"
+                src="images/box2.jpg"
+                alt="what we are doing picture two"
+                width="370"
+              />
+            </li>
+            <li class="item">
+              <img
+                class="image"
+                src="images/box3.jpg"
+                alt="what we are doing picture three"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="our-team">Наша команда</h2>
-          <ul class="main-team">
+          <ul class="main-team list">
             <li class="item">
               <img src="images/person1.jpg" alt="Ihor" width="270" />
-              <h3>Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+              <div class="info">
+                <h3 class="name">Ігор Дем'яненко</h3>
+                <p class="description">Product Designer</p>
+              </div>
             </li>
 
             <li class="item">
               <img src="images/person2.jpg" alt="Olga" width="270" />
-              <h3>Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+              <div class="info">
+                <h3 class="name">Ольга Рєпіна</h3>
+                <p class="description">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="item">
               <img src="images/person3.jpg" alt="Mykola" width="270" />
-              <h3>Микола Тарасов</h3>
-              <p>Marketing</p>
+              <div class="info">
+                <h3 class="name">Микола Тарасов</h3>
+                <p class="description">Marketing</p>
+              </div>
             </li>
 
             <li class="item">
               <img src="images/person4.jpg" alt="Mykhailo" width="270" />
-              <h3>Михайло Єрмаков</h3>
-              <p>UI Designer</p>
+              <div class="info">
+                <h3 class="name">Михайло Єрмаков</h3>
+                <p class="description">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -150,11 +169,11 @@
       <div class="container">
         <a
           class="footer-logo"
-          href="https://oasi911.github.io/goit-markup-hw-02/"
+          href="https://oasi911.github.io/goit-markup-hw-03/"
           >Web<span class="second-part">Studio</span></a
         >
         <address>
-          <ul class="footer-contacts">
+          <ul class="footer-contacts list">
             <li class="item">
               <a
                 class="coordinates"
@@ -165,10 +184,12 @@
               >
             </li>
             <li class="item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="contacts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="item">
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
